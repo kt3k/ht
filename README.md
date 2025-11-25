@@ -40,7 +40,7 @@ const p = ht.p`
 
 Sets attributes to the main tag:
 
-```
+```js
 import ht from "@kt3k/ht"
 
 const input = ht.input({ type: "text" placeholder: "email" })``
@@ -52,6 +52,19 @@ const button = ht.button({ type: "button" })`Finish editing`
 // => HTMLButtonElement
 
 button.onclick = () => { ... }
+```
+
+Use Fragment:
+
+```js
+import ht from "@kt3k/ht"
+
+const fragment = ht.Fragment`
+  <header>Title</header>
+  <main>Contents</main>
+  <footer>Footer</footer>
+`
+// => DocumentFragment type
 ```
 
 # License
