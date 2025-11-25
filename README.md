@@ -44,12 +44,12 @@ Sets attributes to the main tag:
 import ht from "@kt3k/ht"
 
 const input = ht.input({ type: "text" placeholder: "email" })``
-// => HTMLInputType
+// => HTMLInputElement type
 
 input.addEventListener("input", ...);
 
 const button = ht.button({ type: "button" })`Finish editing`
-// => HTMLButtonElement
+// => HTMLButtonElement type
 
 button.onclick = () => { ... }
 ```
