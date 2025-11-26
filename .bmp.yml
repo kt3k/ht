@@ -2,3 +2,4 @@ version: 0.0.0
 commit: "chore: bump to v%.%.%"
 files:
   README.md: v%.%.%
+  deno.json: '"version": "%.%.%"'
