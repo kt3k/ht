@@ -30,6 +30,11 @@ const div = ht.div`
   <p>Hello <strong>World</strong></p>
 `
 // => div has HTMLDivElement type
+// equivalent of
+// <div>
+//  <h1>Heading</h1>
+//  <p>Hello <strong>World</strong></p>
+// </div>
 
 const p = ht.p`
   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -49,11 +54,15 @@ const div = ht.div({ id: "foo" }, `
 
 const input = ht.input({ type: "text" placeholder: "email" })
 // => HTMLInputElement type
+// equivalent of
+// <input type="text" placeholder="email" />
 
 input.addEventListener("input", ...);
 
-const button = ht.button({ type: "button" }, `Finish editing`)
+const button = ht.button({ type: "button" }, "Finish editing")
 // => HTMLButtonElement type
+// equivalent of
+// <button type="button">Finish editing</button>
 
 button.onclick = () => { ... }
 ```
