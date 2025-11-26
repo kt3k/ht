@@ -38,17 +38,21 @@ const p = ht.p`
 // => p has HTMLParagraphElement type
 ```
 
-Sets attributes to the main tag:
+Sets attributes to the tag:
 
 ```js
 import ht from "@kt3k/ht"
 
-const input = ht.input({ type: "text" placeholder: "email" })``
+const div = ht.div({ id: "foo" }, `
+  <p>Hello, world!</p>
+`)
+
+const input = ht.input({ type: "text" placeholder: "email" })
 // => HTMLInputElement type
 
 input.addEventListener("input", ...);
 
-const button = ht.button({ type: "button" })`Finish editing`
+const button = ht.button({ type: "button" }, `Finish editing`)
 // => HTMLButtonElement type
 
 button.onclick = () => { ... }
