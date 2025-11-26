@@ -120,7 +120,7 @@
  */
 
 /**
- * Creates <a> element with attributes and innerHTML
+ * Creates `a` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -130,7 +130,7 @@ export function a(
   html?: string,
 ): HTMLAnchorElement
 /**
- * Creates <a> element as tagged template literal
+ * Creates `a` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -147,7 +147,7 @@ export function a(
 }
 
 /**
- * Creates <abbr> element with attributes and innerHTML
+ * Creates `abbr` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -157,7 +157,7 @@ export function abbr(
   html?: string,
 ): HTMLElement
 /**
- * Creates <abbr> element as tagged template literal
+ * Creates `abbr` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -178,7 +178,7 @@ export function abbr(
 }
 
 /**
- * Creates <address> element with attributes and innerHTML
+ * Creates `address` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -188,7 +188,7 @@ export function address(
   html?: string,
 ): HTMLElement
 /**
- * Creates <address> element as tagged template literal
+ * Creates `address` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -205,7 +205,7 @@ export function address(
 }
 
 /**
- * Creates <area> element with attributes
+ * Creates `area` element with attributes
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -215,7 +215,7 @@ export function area(
   html?: string,
 ): HTMLAreaElement
 /**
- * Creates <area> element as tagged template literal
+ * Creates `area` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -232,7 +232,7 @@ export function area(
 }
 
 /**
- * Creates <article> element with attributes and innerHTML
+ * Creates `article` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -242,7 +242,7 @@ export function article(
   html?: string,
 ): HTMLElement
 /**
- * Creates <article> element as tagged template literal
+ * Creates `article` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -259,7 +259,7 @@ export function article(
 }
 
 /**
- * Creates <aside> element with attributes and innerHTML
+ * Creates `aside` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -269,7 +269,7 @@ export function aside(
   html?: string,
 ): HTMLElement
 /**
- * Creates <aside> element as tagged template literal
+ * Creates `aside` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -286,7 +286,7 @@ export function aside(
 }
 
 /**
- * Creates <audio> element with attributes and innerHTML
+ * Creates `audio` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -296,7 +296,7 @@ export function audio(
   html?: string,
 ): HTMLAudioElement
 /**
- * Creates <audio> element as tagged template literal
+ * Creates `audio` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -313,7 +313,7 @@ export function audio(
 }
 
 /**
- * Creates <b> element with attributes and innerHTML
+ * Creates `b` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -323,7 +323,7 @@ export function b(
   html?: string,
 ): HTMLElement
 /**
- * Creates <b> element as tagged template literal
+ * Creates `b` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -340,7 +340,7 @@ export function b(
 }
 
 /**
- * Creates <base> element with attributes
+ * Creates `base` element with attributes
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -350,7 +350,7 @@ export function base(
   html?: string,
 ): HTMLBaseElement
 /**
- * Creates <base> element as tagged template literal
+ * Creates `base` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -367,7 +367,7 @@ export function base(
 }
 
 /**
- * Creates <bdi> element with attributes and innerHTML
+ * Creates `bdi` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -377,7 +377,7 @@ export function bdi(
   html?: string,
 ): HTMLElement
 /**
- * Creates <bdi> element as tagged template literal
+ * Creates `bdi` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -394,7 +394,7 @@ export function bdi(
 }
 
 /**
- * Creates <bdo> element with attributes and innerHTML
+ * Creates `bdo` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -404,7 +404,7 @@ export function bdo(
   html?: string,
 ): HTMLElement
 /**
- * Creates <bdo> element as tagged template literal
+ * Creates `bdo` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -421,7 +421,7 @@ export function bdo(
 }
 
 /**
- * Creates <blockquote> element with attributes and innerHTML
+ * Creates `blockquote` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -431,7 +431,7 @@ export function blockquote(
   html?: string,
 ): HTMLQuoteElement
 /**
- * Creates <blockquote> element as tagged template literal
+ * Creates `blockquote` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -448,7 +448,7 @@ export function blockquote(
 }
 
 /**
- * Creates <body> element with attributes and innerHTML
+ * Creates `body` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -458,7 +458,7 @@ export function body(
   html?: string,
 ): HTMLBodyElement
 /**
- * Creates <body> element as tagged template literal
+ * Creates `body` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -475,7 +475,7 @@ export function body(
 }
 
 /**
- * Creates <br> element with attributes
+ * Creates `br` element with attributes
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -485,7 +485,7 @@ export function br(
   html?: string,
 ): HTMLBRElement
 /**
- * Creates <br> element as tagged template literal
+ * Creates `br` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -502,7 +502,7 @@ export function br(
 }
 
 /**
- * Creates <button> element with attributes and innerHTML
+ * Creates `button` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -512,7 +512,7 @@ export function button(
   html?: string,
 ): HTMLButtonElement
 /**
- * Creates <button> element as tagged template literal
+ * Creates `button` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -529,7 +529,7 @@ export function button(
 }
 
 /**
- * Creates <canvas> element with attributes and innerHTML
+ * Creates `canvas` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -539,7 +539,7 @@ export function canvas(
   html?: string,
 ): HTMLCanvasElement
 /**
- * Creates <canvas> element as tagged template literal
+ * Creates `canvas` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -556,7 +556,7 @@ export function canvas(
 }
 
 /**
- * Creates <caption> element with attributes and innerHTML
+ * Creates `caption` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -566,7 +566,7 @@ export function caption(
   html?: string,
 ): HTMLTableCaptionElement
 /**
- * Creates <caption> element as tagged template literal
+ * Creates `caption` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -583,7 +583,7 @@ export function caption(
 }
 
 /**
- * Creates <cite> element with attributes and innerHTML
+ * Creates `cite` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -593,7 +593,7 @@ export function cite(
   html?: string,
 ): HTMLElement
 /**
- * Creates <cite> element as tagged template literal
+ * Creates `cite` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -610,7 +610,7 @@ export function cite(
 }
 
 /**
- * Creates <code> element with attributes and innerHTML
+ * Creates `code` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -620,7 +620,7 @@ export function code(
   html?: string,
 ): HTMLElement
 /**
- * Creates <code> element as tagged template literal
+ * Creates `code` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -637,7 +637,7 @@ export function code(
 }
 
 /**
- * Creates <col> element with attributes
+ * Creates `col` element with attributes
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -647,7 +647,7 @@ export function col(
   html?: string,
 ): HTMLTableColElement
 /**
- * Creates <col> element as tagged template literal
+ * Creates `col` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -664,7 +664,7 @@ export function col(
 }
 
 /**
- * Creates <colgroup> element with attributes and innerHTML
+ * Creates `colgroup` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -674,7 +674,7 @@ export function colgroup(
   html?: string,
 ): HTMLTableColElement
 /**
- * Creates <colgroup> element as tagged template literal
+ * Creates `colgroup` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -691,7 +691,7 @@ export function colgroup(
 }
 
 /**
- * Creates <data> element with attributes and innerHTML
+ * Creates `data` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -701,7 +701,7 @@ export function data(
   html?: string,
 ): HTMLDataElement
 /**
- * Creates <data> element as tagged template literal
+ * Creates `data` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -718,7 +718,7 @@ export function data(
 }
 
 /**
- * Creates <datalist> element with attributes and innerHTML
+ * Creates `datalist` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -728,7 +728,7 @@ export function datalist(
   html?: string,
 ): HTMLDataListElement
 /**
- * Creates <datalist> element as tagged template literal
+ * Creates `datalist` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -745,7 +745,7 @@ export function datalist(
 }
 
 /**
- * Creates <dd> element with attributes and innerHTML
+ * Creates `dd` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -755,7 +755,7 @@ export function dd(
   html?: string,
 ): HTMLElement
 /**
- * Creates <dd> element as tagged template literal
+ * Creates `dd` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -772,7 +772,7 @@ export function dd(
 }
 
 /**
- * Creates <del> element with attributes and innerHTML
+ * Creates `del` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -782,7 +782,7 @@ export function del(
   html?: string,
 ): HTMLModElement
 /**
- * Creates <del> element as tagged template literal
+ * Creates `del` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -799,7 +799,7 @@ export function del(
 }
 
 /**
- * Creates <details> element with attributes and innerHTML
+ * Creates `details` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -809,7 +809,7 @@ export function details(
   html?: string,
 ): HTMLDetailsElement
 /**
- * Creates <details> element as tagged template literal
+ * Creates `details` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -826,7 +826,7 @@ export function details(
 }
 
 /**
- * Creates <dfn> element with attributes and innerHTML
+ * Creates `dfn` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -836,7 +836,7 @@ export function dfn(
   html?: string,
 ): HTMLElement
 /**
- * Creates <dfn> element as tagged template literal
+ * Creates `dfn` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -853,7 +853,7 @@ export function dfn(
 }
 
 /**
- * Creates <dialog> element with attributes and innerHTML
+ * Creates `dialog` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -863,7 +863,7 @@ export function dialog(
   html?: string,
 ): HTMLDialogElement
 /**
- * Creates <dialog> element as tagged template literal
+ * Creates `dialog` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -880,7 +880,7 @@ export function dialog(
 }
 
 /**
- * Creates <div> element with attributes and innerHTML
+ * Creates `div` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -890,7 +890,7 @@ export function div(
   html?: string,
 ): HTMLDivElement
 /**
- * Creates <div> element as tagged template literal
+ * Creates `div` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -907,7 +907,7 @@ export function div(
 }
 
 /**
- * Creates <dl> element with attributes and innerHTML
+ * Creates `dl` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -917,7 +917,7 @@ export function dl(
   html?: string,
 ): HTMLDListElement
 /**
- * Creates <dl> element as tagged template literal
+ * Creates `dl` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -934,7 +934,7 @@ export function dl(
 }
 
 /**
- * Creates <dt> element with attributes and innerHTML
+ * Creates `dt` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -944,7 +944,7 @@ export function dt(
   html?: string,
 ): HTMLElement
 /**
- * Creates <dt> element as tagged template literal
+ * Creates `dt` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -961,7 +961,7 @@ export function dt(
 }
 
 /**
- * Creates <em> element with attributes and innerHTML
+ * Creates `em` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -971,7 +971,7 @@ export function em(
   html?: string,
 ): HTMLElement
 /**
- * Creates <em> element as tagged template literal
+ * Creates `em` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -988,7 +988,7 @@ export function em(
 }
 
 /**
- * Creates <embed> element with attributes
+ * Creates `embed` element with attributes
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -998,7 +998,7 @@ export function embed(
   html?: string,
 ): HTMLEmbedElement
 /**
- * Creates <embed> element as tagged template literal
+ * Creates `embed` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1015,7 +1015,7 @@ export function embed(
 }
 
 /**
- * Creates <fieldset> element with attributes and innerHTML
+ * Creates `fieldset` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1025,7 +1025,7 @@ export function fieldset(
   html?: string,
 ): HTMLFieldSetElement
 /**
- * Creates <fieldset> element as tagged template literal
+ * Creates `fieldset` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1042,7 +1042,7 @@ export function fieldset(
 }
 
 /**
- * Creates <figcaption> element with attributes and innerHTML
+ * Creates `figcaption` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1052,7 +1052,7 @@ export function figcaption(
   html?: string,
 ): HTMLElement
 /**
- * Creates <figcaption> element as tagged template literal
+ * Creates `figcaption` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1069,7 +1069,7 @@ export function figcaption(
 }
 
 /**
- * Creates <figure> element with attributes and innerHTML
+ * Creates `figure` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1079,7 +1079,7 @@ export function figure(
   html?: string,
 ): HTMLElement
 /**
- * Creates <figure> element as tagged template literal
+ * Creates `figure` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1096,7 +1096,7 @@ export function figure(
 }
 
 /**
- * Creates <footer> element with attributes and innerHTML
+ * Creates `footer` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1106,7 +1106,7 @@ export function footer(
   html?: string,
 ): HTMLElement
 /**
- * Creates <footer> element as tagged template literal
+ * Creates `footer` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1123,7 +1123,7 @@ export function footer(
 }
 
 /**
- * Creates <form> element with attributes and innerHTML
+ * Creates `form` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1133,7 +1133,7 @@ export function form(
   html?: string,
 ): HTMLFormElement
 /**
- * Creates <form> element as tagged template literal
+ * Creates `form` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1150,7 +1150,7 @@ export function form(
 }
 
 /**
- * Creates <h1> element with attributes and innerHTML
+ * Creates `h1` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1160,7 +1160,7 @@ export function h1(
   html?: string,
 ): HTMLHeadingElement
 /**
- * Creates <h1> element as tagged template literal
+ * Creates `h1` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1177,7 +1177,7 @@ export function h1(
 }
 
 /**
- * Creates <h2> element with attributes and innerHTML
+ * Creates `h2` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1187,7 +1187,7 @@ export function h2(
   html?: string,
 ): HTMLHeadingElement
 /**
- * Creates <h2> element as tagged template literal
+ * Creates `h2` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1204,7 +1204,7 @@ export function h2(
 }
 
 /**
- * Creates <h3> element with attributes and innerHTML
+ * Creates `h3` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1214,7 +1214,7 @@ export function h3(
   html?: string,
 ): HTMLHeadingElement
 /**
- * Creates <h3> element as tagged template literal
+ * Creates `h3` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1231,7 +1231,7 @@ export function h3(
 }
 
 /**
- * Creates <h4> element with attributes and innerHTML
+ * Creates `h4` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1241,7 +1241,7 @@ export function h4(
   html?: string,
 ): HTMLHeadingElement
 /**
- * Creates <h4> element as tagged template literal
+ * Creates `h4` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1258,7 +1258,7 @@ export function h4(
 }
 
 /**
- * Creates <h5> element with attributes and innerHTML
+ * Creates `h5` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1268,7 +1268,7 @@ export function h5(
   html?: string,
 ): HTMLHeadingElement
 /**
- * Creates <h5> element as tagged template literal
+ * Creates `h5` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1285,7 +1285,7 @@ export function h5(
 }
 
 /**
- * Creates <h6> element with attributes and innerHTML
+ * Creates `h6` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1295,7 +1295,7 @@ export function h6(
   html?: string,
 ): HTMLHeadingElement
 /**
- * Creates <h6> element as tagged template literal
+ * Creates `h6` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1312,7 +1312,7 @@ export function h6(
 }
 
 /**
- * Creates <head> element with attributes and innerHTML
+ * Creates `head` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1322,7 +1322,7 @@ export function head(
   html?: string,
 ): HTMLHeadElement
 /**
- * Creates <head> element as tagged template literal
+ * Creates `head` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1339,7 +1339,7 @@ export function head(
 }
 
 /**
- * Creates <header> element with attributes and innerHTML
+ * Creates `header` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1349,7 +1349,7 @@ export function header(
   html?: string,
 ): HTMLElement
 /**
- * Creates <header> element as tagged template literal
+ * Creates `header` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1366,7 +1366,7 @@ export function header(
 }
 
 /**
- * Creates <hgroup> element with attributes and innerHTML
+ * Creates `hgroup` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1376,7 +1376,7 @@ export function hgroup(
   html?: string,
 ): HTMLElement
 /**
- * Creates <hgroup> element as tagged template literal
+ * Creates `hgroup` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1393,7 +1393,7 @@ export function hgroup(
 }
 
 /**
- * Creates <hr> element with attributes
+ * Creates `hr` element with attributes
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1403,7 +1403,7 @@ export function hr(
   html?: string,
 ): HTMLHRElement
 /**
- * Creates <hr> element as tagged template literal
+ * Creates `hr` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1420,7 +1420,7 @@ export function hr(
 }
 
 /**
- * Creates <html> element with attributes and innerHTML
+ * Creates `html` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1430,7 +1430,7 @@ export function html(
   html?: string,
 ): HTMLHtmlElement
 /**
- * Creates <html> element as tagged template literal
+ * Creates `html` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1447,7 +1447,7 @@ export function html(
 }
 
 /**
- * Creates <i> element with attributes and innerHTML
+ * Creates `i` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1457,7 +1457,7 @@ export function i(
   html?: string,
 ): HTMLElement
 /**
- * Creates <i> element as tagged template literal
+ * Creates `i` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1474,7 +1474,7 @@ export function i(
 }
 
 /**
- * Creates <iframe> element with attributes and innerHTML
+ * Creates `iframe` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1484,7 +1484,7 @@ export function iframe(
   html?: string,
 ): HTMLIFrameElement
 /**
- * Creates <iframe> element as tagged template literal
+ * Creates `iframe` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1501,7 +1501,7 @@ export function iframe(
 }
 
 /**
- * Creates <img> element with attributes
+ * Creates `img` element with attributes
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1511,7 +1511,7 @@ export function img(
   html?: string,
 ): HTMLImageElement
 /**
- * Creates <img> element as tagged template literal
+ * Creates `img` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1528,7 +1528,7 @@ export function img(
 }
 
 /**
- * Creates <input> element with attributes
+ * Creates `input` element with attributes
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1538,7 +1538,7 @@ export function input(
   html?: string,
 ): HTMLInputElement
 /**
- * Creates <input> element as tagged template literal
+ * Creates `input` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1555,7 +1555,7 @@ export function input(
 }
 
 /**
- * Creates <ins> element with attributes and innerHTML
+ * Creates `ins` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1565,7 +1565,7 @@ export function ins(
   html?: string,
 ): HTMLModElement
 /**
- * Creates <ins> element as tagged template literal
+ * Creates `ins` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1582,7 +1582,7 @@ export function ins(
 }
 
 /**
- * Creates <kbd> element with attributes and innerHTML
+ * Creates `kbd` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1592,7 +1592,7 @@ export function kbd(
   html?: string,
 ): HTMLElement
 /**
- * Creates <kbd> element as tagged template literal
+ * Creates `kbd` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1609,7 +1609,7 @@ export function kbd(
 }
 
 /**
- * Creates <label> element with attributes and innerHTML
+ * Creates `label` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1619,7 +1619,7 @@ export function label(
   html?: string,
 ): HTMLLabelElement
 /**
- * Creates <label> element as tagged template literal
+ * Creates `label` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1636,7 +1636,7 @@ export function label(
 }
 
 /**
- * Creates <legend> element with attributes and innerHTML
+ * Creates `legend` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1646,7 +1646,7 @@ export function legend(
   html?: string,
 ): HTMLLegendElement
 /**
- * Creates <legend> element as tagged template literal
+ * Creates `legend` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1663,7 +1663,7 @@ export function legend(
 }
 
 /**
- * Creates <li> element with attributes and innerHTML
+ * Creates `li` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1673,7 +1673,7 @@ export function li(
   html?: string,
 ): HTMLLIElement
 /**
- * Creates <li> element as tagged template literal
+ * Creates `li` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1690,7 +1690,7 @@ export function li(
 }
 
 /**
- * Creates <link> element with attributes
+ * Creates `link` element with attributes
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1700,7 +1700,7 @@ export function link(
   html?: string,
 ): HTMLLinkElement
 /**
- * Creates <link> element as tagged template literal
+ * Creates `link` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1717,7 +1717,7 @@ export function link(
 }
 
 /**
- * Creates <main> element with attributes and innerHTML
+ * Creates `main` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1727,7 +1727,7 @@ export function main(
   html?: string,
 ): HTMLElement
 /**
- * Creates <main> element as tagged template literal
+ * Creates `main` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1744,7 +1744,7 @@ export function main(
 }
 
 /**
- * Creates <map> element with attributes and innerHTML
+ * Creates `map` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1754,7 +1754,7 @@ export function map(
   html?: string,
 ): HTMLMapElement
 /**
- * Creates <map> element as tagged template literal
+ * Creates `map` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1771,7 +1771,7 @@ export function map(
 }
 
 /**
- * Creates <mark> element with attributes and innerHTML
+ * Creates `mark` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1781,7 +1781,7 @@ export function mark(
   html?: string,
 ): HTMLElement
 /**
- * Creates <mark> element as tagged template literal
+ * Creates `mark` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1798,7 +1798,7 @@ export function mark(
 }
 
 /**
- * Creates <math> element with attributes and innerHTML
+ * Creates `math` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1808,7 +1808,7 @@ export function math(
   html?: string,
 ): MathMLElement
 /**
- * Creates <math> element as tagged template literal
+ * Creates `math` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1840,7 +1840,7 @@ export function math(
 }
 
 /**
- * Creates <menu> element with attributes and innerHTML
+ * Creates `menu` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1850,7 +1850,7 @@ export function menu(
   html?: string,
 ): HTMLMenuElement
 /**
- * Creates <menu> element as tagged template literal
+ * Creates `menu` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1867,7 +1867,7 @@ export function menu(
 }
 
 /**
- * Creates <meta> element with attributes
+ * Creates `meta` element with attributes
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1877,7 +1877,7 @@ export function meta(
   html?: string,
 ): HTMLMetaElement
 /**
- * Creates <meta> element as tagged template literal
+ * Creates `meta` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1894,7 +1894,7 @@ export function meta(
 }
 
 /**
- * Creates <meter> element with attributes and innerHTML
+ * Creates `meter` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1904,7 +1904,7 @@ export function meter(
   html?: string,
 ): HTMLMeterElement
 /**
- * Creates <meter> element as tagged template literal
+ * Creates `meter` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1921,7 +1921,7 @@ export function meter(
 }
 
 /**
- * Creates <nav> element with attributes and innerHTML
+ * Creates `nav` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1931,7 +1931,7 @@ export function nav(
   html?: string,
 ): HTMLElement
 /**
- * Creates <nav> element as tagged template literal
+ * Creates `nav` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1948,7 +1948,7 @@ export function nav(
 }
 
 /**
- * Creates <noscript> element with attributes and innerHTML
+ * Creates `noscript` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1958,7 +1958,7 @@ export function noscript(
   html?: string,
 ): HTMLElement
 /**
- * Creates <noscript> element as tagged template literal
+ * Creates `noscript` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -1975,7 +1975,7 @@ export function noscript(
 }
 
 /**
- * Creates <object> element with attributes and innerHTML
+ * Creates `object` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -1985,7 +1985,7 @@ export function object(
   html?: string,
 ): HTMLObjectElement
 /**
- * Creates <object> element as tagged template literal
+ * Creates `object` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2002,7 +2002,7 @@ export function object(
 }
 
 /**
- * Creates <ol> element with attributes and innerHTML
+ * Creates `ol` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2012,7 +2012,7 @@ export function ol(
   html?: string,
 ): HTMLOListElement
 /**
- * Creates <ol> element as tagged template literal
+ * Creates `ol` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2029,7 +2029,7 @@ export function ol(
 }
 
 /**
- * Creates <optgroup> element with attributes and innerHTML
+ * Creates `optgroup` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2039,7 +2039,7 @@ export function optgroup(
   html?: string,
 ): HTMLOptGroupElement
 /**
- * Creates <optgroup> element as tagged template literal
+ * Creates `optgroup` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2056,7 +2056,7 @@ export function optgroup(
 }
 
 /**
- * Creates <option> element with attributes and innerHTML
+ * Creates `option` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2066,7 +2066,7 @@ export function option(
   html?: string,
 ): HTMLOptionElement
 /**
- * Creates <option> element as tagged template literal
+ * Creates `option` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2083,7 +2083,7 @@ export function option(
 }
 
 /**
- * Creates <output> element with attributes and innerHTML
+ * Creates `output` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2093,7 +2093,7 @@ export function output(
   html?: string,
 ): HTMLOutputElement
 /**
- * Creates <output> element as tagged template literal
+ * Creates `output` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2110,7 +2110,7 @@ export function output(
 }
 
 /**
- * Creates <p> element with attributes and innerHTML
+ * Creates `p` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2120,7 +2120,7 @@ export function p(
   html?: string,
 ): HTMLParagraphElement
 /**
- * Creates <p> element as tagged template literal
+ * Creates `p` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2137,7 +2137,7 @@ export function p(
 }
 
 /**
- * Creates <picture> element with attributes and innerHTML
+ * Creates `picture` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2147,7 +2147,7 @@ export function picture(
   html?: string,
 ): HTMLPictureElement
 /**
- * Creates <picture> element as tagged template literal
+ * Creates `picture` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2164,7 +2164,7 @@ export function picture(
 }
 
 /**
- * Creates <pre> element with attributes and innerHTML
+ * Creates `pre` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2174,7 +2174,7 @@ export function pre(
   html?: string,
 ): HTMLPreElement
 /**
- * Creates <pre> element as tagged template literal
+ * Creates `pre` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2191,7 +2191,7 @@ export function pre(
 }
 
 /**
- * Creates <progress> element with attributes and innerHTML
+ * Creates `progress` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2201,7 +2201,7 @@ export function progress(
   html?: string,
 ): HTMLProgressElement
 /**
- * Creates <progress> element as tagged template literal
+ * Creates `progress` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2218,7 +2218,7 @@ export function progress(
 }
 
 /**
- * Creates <q> element with attributes and innerHTML
+ * Creates `q` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2228,7 +2228,7 @@ export function q(
   html?: string,
 ): HTMLQuoteElement
 /**
- * Creates <q> element as tagged template literal
+ * Creates `q` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2245,7 +2245,7 @@ export function q(
 }
 
 /**
- * Creates <rp> element with attributes and innerHTML
+ * Creates `rp` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2255,7 +2255,7 @@ export function rp(
   html?: string,
 ): HTMLElement
 /**
- * Creates <rp> element as tagged template literal
+ * Creates `rp` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2272,7 +2272,7 @@ export function rp(
 }
 
 /**
- * Creates <rt> element with attributes and innerHTML
+ * Creates `rt` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2282,7 +2282,7 @@ export function rt(
   html?: string,
 ): HTMLElement
 /**
- * Creates <rt> element as tagged template literal
+ * Creates `rt` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2299,7 +2299,7 @@ export function rt(
 }
 
 /**
- * Creates <ruby> element with attributes and innerHTML
+ * Creates `ruby` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2309,7 +2309,7 @@ export function ruby(
   html?: string,
 ): HTMLElement
 /**
- * Creates <ruby> element as tagged template literal
+ * Creates `ruby` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2326,7 +2326,7 @@ export function ruby(
 }
 
 /**
- * Creates <s> element with attributes and innerHTML
+ * Creates `s` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2336,7 +2336,7 @@ export function s(
   html?: string,
 ): HTMLElement
 /**
- * Creates <s> element as tagged template literal
+ * Creates `s` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2353,7 +2353,7 @@ export function s(
 }
 
 /**
- * Creates <samp> element with attributes and innerHTML
+ * Creates `samp` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2363,7 +2363,7 @@ export function samp(
   html?: string,
 ): HTMLElement
 /**
- * Creates <samp> element as tagged template literal
+ * Creates `samp` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2380,7 +2380,7 @@ export function samp(
 }
 
 /**
- * Creates <script> element with attributes and innerHTML
+ * Creates `script` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2390,7 +2390,7 @@ export function script(
   html?: string,
 ): HTMLScriptElement
 /**
- * Creates <script> element as tagged template literal
+ * Creates `script` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2407,7 +2407,7 @@ export function script(
 }
 
 /**
- * Creates <section> element with attributes and innerHTML
+ * Creates `section` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2417,7 +2417,7 @@ export function section(
   html?: string,
 ): HTMLElement
 /**
- * Creates <section> element as tagged template literal
+ * Creates `section` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2434,7 +2434,7 @@ export function section(
 }
 
 /**
- * Creates <select> element with attributes and innerHTML
+ * Creates `select` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2444,7 +2444,7 @@ export function select(
   html?: string,
 ): HTMLSelectElement
 /**
- * Creates <select> element as tagged template literal
+ * Creates `select` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2461,7 +2461,7 @@ export function select(
 }
 
 /**
- * Creates <slot> element with attributes and innerHTML
+ * Creates `slot` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2471,7 +2471,7 @@ export function slot(
   html?: string,
 ): HTMLSlotElement
 /**
- * Creates <slot> element as tagged template literal
+ * Creates `slot` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2488,7 +2488,7 @@ export function slot(
 }
 
 /**
- * Creates <small> element with attributes and innerHTML
+ * Creates `small` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2498,7 +2498,7 @@ export function small(
   html?: string,
 ): HTMLElement
 /**
- * Creates <small> element as tagged template literal
+ * Creates `small` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2515,7 +2515,7 @@ export function small(
 }
 
 /**
- * Creates <source> element with attributes
+ * Creates `source` element with attributes
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2525,7 +2525,7 @@ export function source(
   html?: string,
 ): HTMLSourceElement
 /**
- * Creates <source> element as tagged template literal
+ * Creates `source` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2542,7 +2542,7 @@ export function source(
 }
 
 /**
- * Creates <span> element with attributes and innerHTML
+ * Creates `span` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2552,7 +2552,7 @@ export function span(
   html?: string,
 ): HTMLSpanElement
 /**
- * Creates <span> element as tagged template literal
+ * Creates `span` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2569,7 +2569,7 @@ export function span(
 }
 
 /**
- * Creates <strong> element with attributes and innerHTML
+ * Creates `strong` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2579,7 +2579,7 @@ export function strong(
   html?: string,
 ): HTMLElement
 /**
- * Creates <strong> element as tagged template literal
+ * Creates `strong` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2596,7 +2596,7 @@ export function strong(
 }
 
 /**
- * Creates <style> element with attributes and innerHTML
+ * Creates `style` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2606,7 +2606,7 @@ export function style(
   html?: string,
 ): HTMLStyleElement
 /**
- * Creates <style> element as tagged template literal
+ * Creates `style` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2623,7 +2623,7 @@ export function style(
 }
 
 /**
- * Creates <sub> element with attributes and innerHTML
+ * Creates `sub` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2633,7 +2633,7 @@ export function sub(
   html?: string,
 ): HTMLElement
 /**
- * Creates <sub> element as tagged template literal
+ * Creates `sub` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2650,7 +2650,7 @@ export function sub(
 }
 
 /**
- * Creates <summary> element with attributes and innerHTML
+ * Creates `summary` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2660,7 +2660,7 @@ export function summary(
   html?: string,
 ): HTMLElement
 /**
- * Creates <summary> element as tagged template literal
+ * Creates `summary` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2677,7 +2677,7 @@ export function summary(
 }
 
 /**
- * Creates <sup> element with attributes and innerHTML
+ * Creates `sup` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2687,7 +2687,7 @@ export function sup(
   html?: string,
 ): HTMLElement
 /**
- * Creates <sup> element as tagged template literal
+ * Creates `sup` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2704,7 +2704,7 @@ export function sup(
 }
 
 /**
- * Creates <svg> element with attributes and innerHTML
+ * Creates `svg` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2714,7 +2714,7 @@ export function svg(
   html?: string,
 ): SVGSVGElement
 /**
- * Creates <svg> element as tagged template literal
+ * Creates `svg` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2743,7 +2743,7 @@ export function svg(
 }
 
 /**
- * Creates <table> element with attributes and innerHTML
+ * Creates `table` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2753,7 +2753,7 @@ export function table(
   html?: string,
 ): HTMLTableElement
 /**
- * Creates <table> element as tagged template literal
+ * Creates `table` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2770,7 +2770,7 @@ export function table(
 }
 
 /**
- * Creates <tbody> element with attributes and innerHTML
+ * Creates `tbody` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2780,7 +2780,7 @@ export function tbody(
   html?: string,
 ): HTMLTableSectionElement
 /**
- * Creates <tbody> element as tagged template literal
+ * Creates `tbody` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2797,7 +2797,7 @@ export function tbody(
 }
 
 /**
- * Creates <td> element with attributes and innerHTML
+ * Creates `td` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2807,7 +2807,7 @@ export function td(
   html?: string,
 ): HTMLTableCellElement
 /**
- * Creates <td> element as tagged template literal
+ * Creates `td` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2824,7 +2824,7 @@ export function td(
 }
 
 /**
- * Creates <template> element with attributes and innerHTML
+ * Creates `template` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2834,7 +2834,7 @@ export function template(
   html?: string,
 ): HTMLTemplateElement
 /**
- * Creates <template> element as tagged template literal
+ * Creates `template` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2851,7 +2851,7 @@ export function template(
 }
 
 /**
- * Creates <textarea> element with attributes and innerHTML
+ * Creates `textarea` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2861,7 +2861,7 @@ export function textarea(
   html?: string,
 ): HTMLTextAreaElement
 /**
- * Creates <textarea> element as tagged template literal
+ * Creates `textarea` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2878,7 +2878,7 @@ export function textarea(
 }
 
 /**
- * Creates <tfoot> element with attributes and innerHTML
+ * Creates `tfoot` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2888,7 +2888,7 @@ export function tfoot(
   html?: string,
 ): HTMLTableSectionElement
 /**
- * Creates <tfoot> element as tagged template literal
+ * Creates `tfoot` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2905,7 +2905,7 @@ export function tfoot(
 }
 
 /**
- * Creates <th> element with attributes and innerHTML
+ * Creates `th` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2915,7 +2915,7 @@ export function th(
   html?: string,
 ): HTMLTableCellElement
 /**
- * Creates <th> element as tagged template literal
+ * Creates `th` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2932,7 +2932,7 @@ export function th(
 }
 
 /**
- * Creates <thead> element with attributes and innerHTML
+ * Creates `thead` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2942,7 +2942,7 @@ export function thead(
   html?: string,
 ): HTMLTableSectionElement
 /**
- * Creates <thead> element as tagged template literal
+ * Creates `thead` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2959,7 +2959,7 @@ export function thead(
 }
 
 /**
- * Creates <time> element with attributes and innerHTML
+ * Creates `time` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2969,7 +2969,7 @@ export function time(
   html?: string,
 ): HTMLTimeElement
 /**
- * Creates <time> element as tagged template literal
+ * Creates `time` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -2986,7 +2986,7 @@ export function time(
 }
 
 /**
- * Creates <title> element with attributes and innerHTML
+ * Creates `title` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -2996,7 +2996,7 @@ export function title(
   html?: string,
 ): HTMLTitleElement
 /**
- * Creates <title> element as tagged template literal
+ * Creates `title` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -3013,7 +3013,7 @@ export function title(
 }
 
 /**
- * Creates <tr> element with attributes and innerHTML
+ * Creates `tr` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -3023,7 +3023,7 @@ export function tr(
   html?: string,
 ): HTMLTableRowElement
 /**
- * Creates <tr> element as tagged template literal
+ * Creates `tr` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -3040,7 +3040,7 @@ export function tr(
 }
 
 /**
- * Creates <track> element with attributes
+ * Creates `track` element with attributes
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -3050,7 +3050,7 @@ export function track(
   html?: string,
 ): HTMLTrackElement
 /**
- * Creates <track> element as tagged template literal
+ * Creates `track` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -3067,7 +3067,7 @@ export function track(
 }
 
 /**
- * Creates <u> element with attributes and innerHTML
+ * Creates `u` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -3077,7 +3077,7 @@ export function u(
   html?: string,
 ): HTMLElement
 /**
- * Creates <u> element as tagged template literal
+ * Creates `u` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -3094,7 +3094,7 @@ export function u(
 }
 
 /**
- * Creates <ul> element with attributes and innerHTML
+ * Creates `ul` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -3104,7 +3104,7 @@ export function ul(
   html?: string,
 ): HTMLUListElement
 /**
- * Creates <ul> element as tagged template literal
+ * Creates `ul` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -3121,7 +3121,7 @@ export function ul(
 }
 
 /**
- * Creates <var> element with attributes and innerHTML
+ * Creates `var` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -3132,7 +3132,7 @@ export function var_(
   html?: string,
 ): HTMLElement
 /**
- * Creates <var> element as tagged template literal
+ * Creates `var` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -3151,7 +3151,7 @@ export function var_(
 }
 
 /**
- * Creates <video> element with attributes and innerHTML
+ * Creates `video` element with attributes and innerHTML
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -3161,7 +3161,7 @@ export function video(
   html?: string,
 ): HTMLVideoElement
 /**
- * Creates <video> element as tagged template literal
+ * Creates `video` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
@@ -3178,7 +3178,7 @@ export function video(
 }
 
 /**
- * Creates <wbr> element with attributes
+ * Creates `wbr` element with attributes
  *
  * @param attrs Attributes to set
  * @param html HTML to set to innnerHTML
@@ -3188,7 +3188,7 @@ export function wbr(
   html?: string,
 ): HTMLElement
 /**
- * Creates <wbr> element as tagged template literal
+ * Creates `wbr` element as tagged template literal
  *
  * @param template Template strings array
  * @param values Values to interpolate
