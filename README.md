@@ -1,4 +1,4 @@
-# ht v0.1.0
+# ht v0.1.1
 
 Type-friendly HTMLElement factory function as template literal tag.
 
