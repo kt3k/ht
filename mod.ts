@@ -126,7 +126,7 @@
  * @param html HTML to set to innnerHTML
  */
 export function a(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLAnchorElement
 /**
@@ -140,7 +140,7 @@ export function a(
   ...values: unknown[]
 ): HTMLAnchorElement
 export function a(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLAnchorElement {
   return createElement("a", template, ...values)
@@ -153,7 +153,7 @@ export function a(
  * @param html HTML to set to innnerHTML
  */
 export function abbr(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -163,7 +163,7 @@ export function abbr(
  * @param values Values to interpolate
  */
 export function abbr(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html: string,
 ): HTMLElement
 export function abbr(
@@ -171,7 +171,7 @@ export function abbr(
   ...values: unknown[]
 ): HTMLElement
 export function abbr(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("abbr", template, ...values)
@@ -184,7 +184,7 @@ export function abbr(
  * @param html HTML to set to innnerHTML
  */
 export function address(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -198,7 +198,7 @@ export function address(
   ...values: unknown[]
 ): HTMLElement
 export function address(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("address", template, ...values)
@@ -211,7 +211,7 @@ export function address(
  * @param html HTML to set to innnerHTML
  */
 export function area(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLAreaElement
 /**
@@ -225,7 +225,7 @@ export function area(
   ...values: unknown[]
 ): HTMLAreaElement
 export function area(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLAreaElement {
   return createElement("area", template, ...values)
@@ -238,7 +238,7 @@ export function area(
  * @param html HTML to set to innnerHTML
  */
 export function article(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -252,7 +252,7 @@ export function article(
   ...values: unknown[]
 ): HTMLElement
 export function article(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("article", template, ...values)
@@ -265,7 +265,7 @@ export function article(
  * @param html HTML to set to innnerHTML
  */
 export function aside(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -279,7 +279,7 @@ export function aside(
   ...values: unknown[]
 ): HTMLElement
 export function aside(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("aside", template, ...values)
@@ -292,7 +292,7 @@ export function aside(
  * @param html HTML to set to innnerHTML
  */
 export function audio(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLAudioElement
 /**
@@ -306,7 +306,7 @@ export function audio(
   ...values: unknown[]
 ): HTMLAudioElement
 export function audio(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLAudioElement {
   return createElement("audio", template, ...values)
@@ -319,7 +319,7 @@ export function audio(
  * @param html HTML to set to innnerHTML
  */
 export function b(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -333,7 +333,7 @@ export function b(
   ...values: unknown[]
 ): HTMLElement
 export function b(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("b", template, ...values)
@@ -346,7 +346,7 @@ export function b(
  * @param html HTML to set to innnerHTML
  */
 export function base(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLBaseElement
 /**
@@ -360,7 +360,7 @@ export function base(
   ...values: unknown[]
 ): HTMLBaseElement
 export function base(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLBaseElement {
   return createElement("base", template, ...values)
@@ -373,7 +373,7 @@ export function base(
  * @param html HTML to set to innnerHTML
  */
 export function bdi(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -387,7 +387,7 @@ export function bdi(
   ...values: unknown[]
 ): HTMLElement
 export function bdi(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("bdi", template, ...values)
@@ -400,7 +400,7 @@ export function bdi(
  * @param html HTML to set to innnerHTML
  */
 export function bdo(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -414,7 +414,7 @@ export function bdo(
   ...values: unknown[]
 ): HTMLElement
 export function bdo(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("bdo", template, ...values)
@@ -427,7 +427,7 @@ export function bdo(
  * @param html HTML to set to innnerHTML
  */
 export function blockquote(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLQuoteElement
 /**
@@ -441,7 +441,7 @@ export function blockquote(
   ...values: unknown[]
 ): HTMLQuoteElement
 export function blockquote(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLQuoteElement {
   return createElement("blockquote", template, ...values)
@@ -454,7 +454,7 @@ export function blockquote(
  * @param html HTML to set to innnerHTML
  */
 export function body(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLBodyElement
 /**
@@ -468,7 +468,7 @@ export function body(
   ...values: unknown[]
 ): HTMLBodyElement
 export function body(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLBodyElement {
   return createElement("body", template, ...values)
@@ -481,7 +481,7 @@ export function body(
  * @param html HTML to set to innnerHTML
  */
 export function br(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLBRElement
 /**
@@ -495,7 +495,7 @@ export function br(
   ...values: unknown[]
 ): HTMLBRElement
 export function br(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLBRElement {
   return createElement("br", template, ...values)
@@ -508,7 +508,7 @@ export function br(
  * @param html HTML to set to innnerHTML
  */
 export function button(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLButtonElement
 /**
@@ -522,7 +522,7 @@ export function button(
   ...values: unknown[]
 ): HTMLButtonElement
 export function button(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLButtonElement {
   return createElement("button", template, ...values)
@@ -535,7 +535,7 @@ export function button(
  * @param html HTML to set to innnerHTML
  */
 export function canvas(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLCanvasElement
 /**
@@ -549,7 +549,7 @@ export function canvas(
   ...values: unknown[]
 ): HTMLCanvasElement
 export function canvas(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLCanvasElement {
   return createElement("canvas", template, ...values)
@@ -562,7 +562,7 @@ export function canvas(
  * @param html HTML to set to innnerHTML
  */
 export function caption(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLTableCaptionElement
 /**
@@ -576,7 +576,7 @@ export function caption(
   ...values: unknown[]
 ): HTMLTableCaptionElement
 export function caption(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLTableCaptionElement {
   return createElement("caption", template, ...values)
@@ -589,7 +589,7 @@ export function caption(
  * @param html HTML to set to innnerHTML
  */
 export function cite(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -603,7 +603,7 @@ export function cite(
   ...values: unknown[]
 ): HTMLElement
 export function cite(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("cite", template, ...values)
@@ -616,7 +616,7 @@ export function cite(
  * @param html HTML to set to innnerHTML
  */
 export function code(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -630,7 +630,7 @@ export function code(
   ...values: unknown[]
 ): HTMLElement
 export function code(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("code", template, ...values)
@@ -643,7 +643,7 @@ export function code(
  * @param html HTML to set to innnerHTML
  */
 export function col(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLTableColElement
 /**
@@ -657,7 +657,7 @@ export function col(
   ...values: unknown[]
 ): HTMLTableColElement
 export function col(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLTableColElement {
   return createElement("col", template, ...values)
@@ -670,7 +670,7 @@ export function col(
  * @param html HTML to set to innnerHTML
  */
 export function colgroup(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLTableColElement
 /**
@@ -684,7 +684,7 @@ export function colgroup(
   ...values: unknown[]
 ): HTMLTableColElement
 export function colgroup(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLTableColElement {
   return createElement("colgroup", template, ...values)
@@ -697,7 +697,7 @@ export function colgroup(
  * @param html HTML to set to innnerHTML
  */
 export function data(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLDataElement
 /**
@@ -711,7 +711,7 @@ export function data(
   ...values: unknown[]
 ): HTMLDataElement
 export function data(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLDataElement {
   return createElement("data", template, ...values)
@@ -724,7 +724,7 @@ export function data(
  * @param html HTML to set to innnerHTML
  */
 export function datalist(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLDataListElement
 /**
@@ -738,7 +738,7 @@ export function datalist(
   ...values: unknown[]
 ): HTMLDataListElement
 export function datalist(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLDataListElement {
   return createElement("datalist", template, ...values)
@@ -751,7 +751,7 @@ export function datalist(
  * @param html HTML to set to innnerHTML
  */
 export function dd(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -765,7 +765,7 @@ export function dd(
   ...values: unknown[]
 ): HTMLElement
 export function dd(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("dd", template, ...values)
@@ -778,7 +778,7 @@ export function dd(
  * @param html HTML to set to innnerHTML
  */
 export function del(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLModElement
 /**
@@ -792,7 +792,7 @@ export function del(
   ...values: unknown[]
 ): HTMLModElement
 export function del(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLModElement {
   return createElement("del", template, ...values)
@@ -805,7 +805,7 @@ export function del(
  * @param html HTML to set to innnerHTML
  */
 export function details(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLDetailsElement
 /**
@@ -819,7 +819,7 @@ export function details(
   ...values: unknown[]
 ): HTMLDetailsElement
 export function details(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLDetailsElement {
   return createElement("details", template, ...values)
@@ -832,7 +832,7 @@ export function details(
  * @param html HTML to set to innnerHTML
  */
 export function dfn(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -846,7 +846,7 @@ export function dfn(
   ...values: unknown[]
 ): HTMLElement
 export function dfn(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("dfn", template, ...values)
@@ -859,7 +859,7 @@ export function dfn(
  * @param html HTML to set to innnerHTML
  */
 export function dialog(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLDialogElement
 /**
@@ -873,7 +873,7 @@ export function dialog(
   ...values: unknown[]
 ): HTMLDialogElement
 export function dialog(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLDialogElement {
   return createElement("dialog", template, ...values)
@@ -886,7 +886,7 @@ export function dialog(
  * @param html HTML to set to innnerHTML
  */
 export function div(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLDivElement
 /**
@@ -900,7 +900,7 @@ export function div(
   ...values: unknown[]
 ): HTMLDivElement
 export function div(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLDivElement {
   return createElement("div", template, ...values)
@@ -913,7 +913,7 @@ export function div(
  * @param html HTML to set to innnerHTML
  */
 export function dl(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLDListElement
 /**
@@ -927,7 +927,7 @@ export function dl(
   ...values: unknown[]
 ): HTMLDListElement
 export function dl(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLDListElement {
   return createElement("dl", template, ...values)
@@ -940,7 +940,7 @@ export function dl(
  * @param html HTML to set to innnerHTML
  */
 export function dt(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -954,7 +954,7 @@ export function dt(
   ...values: unknown[]
 ): HTMLElement
 export function dt(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("dt", template, ...values)
@@ -967,7 +967,7 @@ export function dt(
  * @param html HTML to set to innnerHTML
  */
 export function em(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -981,7 +981,7 @@ export function em(
   ...values: unknown[]
 ): HTMLElement
 export function em(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("em", template, ...values)
@@ -994,7 +994,7 @@ export function em(
  * @param html HTML to set to innnerHTML
  */
 export function embed(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLEmbedElement
 /**
@@ -1008,7 +1008,7 @@ export function embed(
   ...values: unknown[]
 ): HTMLEmbedElement
 export function embed(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLEmbedElement {
   return createElement("embed", template, ...values)
@@ -1021,7 +1021,7 @@ export function embed(
  * @param html HTML to set to innnerHTML
  */
 export function fieldset(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLFieldSetElement
 /**
@@ -1035,7 +1035,7 @@ export function fieldset(
   ...values: unknown[]
 ): HTMLFieldSetElement
 export function fieldset(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLFieldSetElement {
   return createElement("fieldset", template, ...values)
@@ -1048,7 +1048,7 @@ export function fieldset(
  * @param html HTML to set to innnerHTML
  */
 export function figcaption(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -1062,7 +1062,7 @@ export function figcaption(
   ...values: unknown[]
 ): HTMLElement
 export function figcaption(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("figcaption", template, ...values)
@@ -1075,7 +1075,7 @@ export function figcaption(
  * @param html HTML to set to innnerHTML
  */
 export function figure(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -1089,7 +1089,7 @@ export function figure(
   ...values: unknown[]
 ): HTMLElement
 export function figure(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("figure", template, ...values)
@@ -1102,7 +1102,7 @@ export function figure(
  * @param html HTML to set to innnerHTML
  */
 export function footer(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -1116,7 +1116,7 @@ export function footer(
   ...values: unknown[]
 ): HTMLElement
 export function footer(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("footer", template, ...values)
@@ -1129,7 +1129,7 @@ export function footer(
  * @param html HTML to set to innnerHTML
  */
 export function form(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLFormElement
 /**
@@ -1143,7 +1143,7 @@ export function form(
   ...values: unknown[]
 ): HTMLFormElement
 export function form(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLFormElement {
   return createElement("form", template, ...values)
@@ -1156,7 +1156,7 @@ export function form(
  * @param html HTML to set to innnerHTML
  */
 export function h1(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLHeadingElement
 /**
@@ -1170,7 +1170,7 @@ export function h1(
   ...values: unknown[]
 ): HTMLHeadingElement
 export function h1(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLHeadingElement {
   return createElement("h1", template, ...values)
@@ -1183,7 +1183,7 @@ export function h1(
  * @param html HTML to set to innnerHTML
  */
 export function h2(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLHeadingElement
 /**
@@ -1197,7 +1197,7 @@ export function h2(
   ...values: unknown[]
 ): HTMLHeadingElement
 export function h2(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLHeadingElement {
   return createElement("h2", template, ...values)
@@ -1210,7 +1210,7 @@ export function h2(
  * @param html HTML to set to innnerHTML
  */
 export function h3(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLHeadingElement
 /**
@@ -1224,7 +1224,7 @@ export function h3(
   ...values: unknown[]
 ): HTMLHeadingElement
 export function h3(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLHeadingElement {
   return createElement("h3", template, ...values)
@@ -1237,7 +1237,7 @@ export function h3(
  * @param html HTML to set to innnerHTML
  */
 export function h4(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLHeadingElement
 /**
@@ -1251,7 +1251,7 @@ export function h4(
   ...values: unknown[]
 ): HTMLHeadingElement
 export function h4(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLHeadingElement {
   return createElement("h4", template, ...values)
@@ -1264,7 +1264,7 @@ export function h4(
  * @param html HTML to set to innnerHTML
  */
 export function h5(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLHeadingElement
 /**
@@ -1278,7 +1278,7 @@ export function h5(
   ...values: unknown[]
 ): HTMLHeadingElement
 export function h5(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLHeadingElement {
   return createElement("h5", template, ...values)
@@ -1291,7 +1291,7 @@ export function h5(
  * @param html HTML to set to innnerHTML
  */
 export function h6(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLHeadingElement
 /**
@@ -1305,7 +1305,7 @@ export function h6(
   ...values: unknown[]
 ): HTMLHeadingElement
 export function h6(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLHeadingElement {
   return createElement("h6", template, ...values)
@@ -1318,7 +1318,7 @@ export function h6(
  * @param html HTML to set to innnerHTML
  */
 export function head(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLHeadElement
 /**
@@ -1332,7 +1332,7 @@ export function head(
   ...values: unknown[]
 ): HTMLHeadElement
 export function head(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLHeadElement {
   return createElement("head", template, ...values)
@@ -1345,7 +1345,7 @@ export function head(
  * @param html HTML to set to innnerHTML
  */
 export function header(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -1359,7 +1359,7 @@ export function header(
   ...values: unknown[]
 ): HTMLElement
 export function header(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("header", template, ...values)
@@ -1372,7 +1372,7 @@ export function header(
  * @param html HTML to set to innnerHTML
  */
 export function hgroup(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -1386,7 +1386,7 @@ export function hgroup(
   ...values: unknown[]
 ): HTMLElement
 export function hgroup(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("hgroup", template, ...values)
@@ -1399,7 +1399,7 @@ export function hgroup(
  * @param html HTML to set to innnerHTML
  */
 export function hr(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLHRElement
 /**
@@ -1413,7 +1413,7 @@ export function hr(
   ...values: unknown[]
 ): HTMLHRElement
 export function hr(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLHRElement {
   return createElement("hr", template, ...values)
@@ -1426,7 +1426,7 @@ export function hr(
  * @param html HTML to set to innnerHTML
  */
 export function html(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLHtmlElement
 /**
@@ -1440,7 +1440,7 @@ export function html(
   ...values: unknown[]
 ): HTMLHtmlElement
 export function html(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLHtmlElement {
   return createElement("html", template, ...values)
@@ -1453,7 +1453,7 @@ export function html(
  * @param html HTML to set to innnerHTML
  */
 export function i(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -1467,7 +1467,7 @@ export function i(
   ...values: unknown[]
 ): HTMLElement
 export function i(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("i", template, ...values)
@@ -1480,7 +1480,7 @@ export function i(
  * @param html HTML to set to innnerHTML
  */
 export function iframe(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLIFrameElement
 /**
@@ -1494,7 +1494,7 @@ export function iframe(
   ...values: unknown[]
 ): HTMLIFrameElement
 export function iframe(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLIFrameElement {
   return createElement("iframe", template, ...values)
@@ -1507,7 +1507,7 @@ export function iframe(
  * @param html HTML to set to innnerHTML
  */
 export function img(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLImageElement
 /**
@@ -1521,7 +1521,7 @@ export function img(
   ...values: unknown[]
 ): HTMLImageElement
 export function img(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLImageElement {
   return createElement("img", template, ...values)
@@ -1534,7 +1534,7 @@ export function img(
  * @param html HTML to set to innnerHTML
  */
 export function input(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLInputElement
 /**
@@ -1548,7 +1548,7 @@ export function input(
   ...values: unknown[]
 ): HTMLInputElement
 export function input(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLInputElement {
   return createElement("input", template, ...values)
@@ -1561,7 +1561,7 @@ export function input(
  * @param html HTML to set to innnerHTML
  */
 export function ins(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLModElement
 /**
@@ -1575,7 +1575,7 @@ export function ins(
   ...values: unknown[]
 ): HTMLModElement
 export function ins(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLModElement {
   return createElement("ins", template, ...values)
@@ -1588,7 +1588,7 @@ export function ins(
  * @param html HTML to set to innnerHTML
  */
 export function kbd(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -1602,7 +1602,7 @@ export function kbd(
   ...values: unknown[]
 ): HTMLElement
 export function kbd(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("kbd", template, ...values)
@@ -1615,7 +1615,7 @@ export function kbd(
  * @param html HTML to set to innnerHTML
  */
 export function label(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLLabelElement
 /**
@@ -1629,7 +1629,7 @@ export function label(
   ...values: unknown[]
 ): HTMLLabelElement
 export function label(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLLabelElement {
   return createElement("label", template, ...values)
@@ -1642,7 +1642,7 @@ export function label(
  * @param html HTML to set to innnerHTML
  */
 export function legend(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLLegendElement
 /**
@@ -1656,7 +1656,7 @@ export function legend(
   ...values: unknown[]
 ): HTMLLegendElement
 export function legend(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLLegendElement {
   return createElement("legend", template, ...values)
@@ -1669,7 +1669,7 @@ export function legend(
  * @param html HTML to set to innnerHTML
  */
 export function li(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLLIElement
 /**
@@ -1683,7 +1683,7 @@ export function li(
   ...values: unknown[]
 ): HTMLLIElement
 export function li(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLLIElement {
   return createElement("li", template, ...values)
@@ -1696,7 +1696,7 @@ export function li(
  * @param html HTML to set to innnerHTML
  */
 export function link(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLLinkElement
 /**
@@ -1710,7 +1710,7 @@ export function link(
   ...values: unknown[]
 ): HTMLLinkElement
 export function link(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLLinkElement {
   return createElement("link", template, ...values)
@@ -1723,7 +1723,7 @@ export function link(
  * @param html HTML to set to innnerHTML
  */
 export function main(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -1737,7 +1737,7 @@ export function main(
   ...values: unknown[]
 ): HTMLElement
 export function main(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("main", template, ...values)
@@ -1750,7 +1750,7 @@ export function main(
  * @param html HTML to set to innnerHTML
  */
 export function map(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLMapElement
 /**
@@ -1764,7 +1764,7 @@ export function map(
   ...values: unknown[]
 ): HTMLMapElement
 export function map(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLMapElement {
   return createElement("map", template, ...values)
@@ -1777,7 +1777,7 @@ export function map(
  * @param html HTML to set to innnerHTML
  */
 export function mark(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -1791,7 +1791,7 @@ export function mark(
   ...values: unknown[]
 ): HTMLElement
 export function mark(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("mark", template, ...values)
@@ -1804,7 +1804,7 @@ export function mark(
  * @param html HTML to set to innnerHTML
  */
 export function math(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): MathMLElement
 /**
@@ -1818,7 +1818,7 @@ export function math(
   ...values: unknown[]
 ): MathMLElement
 export function math(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): MathMLElement {
   const math = document.createElementNS(
@@ -1829,7 +1829,7 @@ export function math(
     math.innerHTML = String.raw({ raw: template }, ...values)
   } else {
     for (const [key, value] of Object.entries(template)) {
-      math.setAttribute(key, value)
+      math.setAttribute(key, String(value))
     }
     const html = values[0]
     if (typeof html === "string") {
@@ -1846,7 +1846,7 @@ export function math(
  * @param html HTML to set to innnerHTML
  */
 export function menu(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLMenuElement
 /**
@@ -1860,7 +1860,7 @@ export function menu(
   ...values: unknown[]
 ): HTMLMenuElement
 export function menu(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLMenuElement {
   return createElement("menu", template, ...values)
@@ -1873,7 +1873,7 @@ export function menu(
  * @param html HTML to set to innnerHTML
  */
 export function meta(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLMetaElement
 /**
@@ -1887,7 +1887,7 @@ export function meta(
   ...values: unknown[]
 ): HTMLMetaElement
 export function meta(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLMetaElement {
   return createElement("meta", template, ...values)
@@ -1900,7 +1900,7 @@ export function meta(
  * @param html HTML to set to innnerHTML
  */
 export function meter(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLMeterElement
 /**
@@ -1914,7 +1914,7 @@ export function meter(
   ...values: unknown[]
 ): HTMLMeterElement
 export function meter(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLMeterElement {
   return createElement("meter", template, ...values)
@@ -1927,7 +1927,7 @@ export function meter(
  * @param html HTML to set to innnerHTML
  */
 export function nav(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -1941,7 +1941,7 @@ export function nav(
   ...values: unknown[]
 ): HTMLElement
 export function nav(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("nav", template, ...values)
@@ -1954,7 +1954,7 @@ export function nav(
  * @param html HTML to set to innnerHTML
  */
 export function noscript(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -1968,7 +1968,7 @@ export function noscript(
   ...values: unknown[]
 ): HTMLElement
 export function noscript(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("noscript", template, ...values)
@@ -1981,7 +1981,7 @@ export function noscript(
  * @param html HTML to set to innnerHTML
  */
 export function object(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLObjectElement
 /**
@@ -1995,7 +1995,7 @@ export function object(
   ...values: unknown[]
 ): HTMLObjectElement
 export function object(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLObjectElement {
   return createElement("object", template, ...values)
@@ -2008,7 +2008,7 @@ export function object(
  * @param html HTML to set to innnerHTML
  */
 export function ol(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLOListElement
 /**
@@ -2022,7 +2022,7 @@ export function ol(
   ...values: unknown[]
 ): HTMLOListElement
 export function ol(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLOListElement {
   return createElement("ol", template, ...values)
@@ -2035,7 +2035,7 @@ export function ol(
  * @param html HTML to set to innnerHTML
  */
 export function optgroup(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLOptGroupElement
 /**
@@ -2049,7 +2049,7 @@ export function optgroup(
   ...values: unknown[]
 ): HTMLOptGroupElement
 export function optgroup(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLOptGroupElement {
   return createElement("optgroup", template, ...values)
@@ -2062,7 +2062,7 @@ export function optgroup(
  * @param html HTML to set to innnerHTML
  */
 export function option(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLOptionElement
 /**
@@ -2076,7 +2076,7 @@ export function option(
   ...values: unknown[]
 ): HTMLOptionElement
 export function option(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLOptionElement {
   return createElement("option", template, ...values)
@@ -2089,7 +2089,7 @@ export function option(
  * @param html HTML to set to innnerHTML
  */
 export function output(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLOutputElement
 /**
@@ -2103,7 +2103,7 @@ export function output(
   ...values: unknown[]
 ): HTMLOutputElement
 export function output(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLOutputElement {
   return createElement("output", template, ...values)
@@ -2116,7 +2116,7 @@ export function output(
  * @param html HTML to set to innnerHTML
  */
 export function p(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLParagraphElement
 /**
@@ -2130,7 +2130,7 @@ export function p(
   ...values: unknown[]
 ): HTMLParagraphElement
 export function p(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLParagraphElement {
   return createElement("p", template, ...values)
@@ -2143,7 +2143,7 @@ export function p(
  * @param html HTML to set to innnerHTML
  */
 export function picture(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLPictureElement
 /**
@@ -2157,7 +2157,7 @@ export function picture(
   ...values: unknown[]
 ): HTMLPictureElement
 export function picture(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLPictureElement {
   return createElement("picture", template, ...values)
@@ -2170,7 +2170,7 @@ export function picture(
  * @param html HTML to set to innnerHTML
  */
 export function pre(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLPreElement
 /**
@@ -2184,7 +2184,7 @@ export function pre(
   ...values: unknown[]
 ): HTMLPreElement
 export function pre(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLPreElement {
   return createElement("pre", template, ...values)
@@ -2197,7 +2197,7 @@ export function pre(
  * @param html HTML to set to innnerHTML
  */
 export function progress(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLProgressElement
 /**
@@ -2211,7 +2211,7 @@ export function progress(
   ...values: unknown[]
 ): HTMLProgressElement
 export function progress(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLProgressElement {
   return createElement("progress", template, ...values)
@@ -2224,7 +2224,7 @@ export function progress(
  * @param html HTML to set to innnerHTML
  */
 export function q(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLQuoteElement
 /**
@@ -2238,7 +2238,7 @@ export function q(
   ...values: unknown[]
 ): HTMLQuoteElement
 export function q(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLQuoteElement {
   return createElement("q", template, ...values)
@@ -2251,7 +2251,7 @@ export function q(
  * @param html HTML to set to innnerHTML
  */
 export function rp(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -2265,7 +2265,7 @@ export function rp(
   ...values: unknown[]
 ): HTMLElement
 export function rp(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("rp", template, ...values)
@@ -2278,7 +2278,7 @@ export function rp(
  * @param html HTML to set to innnerHTML
  */
 export function rt(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -2292,7 +2292,7 @@ export function rt(
   ...values: unknown[]
 ): HTMLElement
 export function rt(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("rt", template, ...values)
@@ -2305,7 +2305,7 @@ export function rt(
  * @param html HTML to set to innnerHTML
  */
 export function ruby(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -2319,7 +2319,7 @@ export function ruby(
   ...values: unknown[]
 ): HTMLElement
 export function ruby(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("ruby", template, ...values)
@@ -2332,7 +2332,7 @@ export function ruby(
  * @param html HTML to set to innnerHTML
  */
 export function s(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -2346,7 +2346,7 @@ export function s(
   ...values: unknown[]
 ): HTMLElement
 export function s(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("s", template, ...values)
@@ -2359,7 +2359,7 @@ export function s(
  * @param html HTML to set to innnerHTML
  */
 export function samp(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -2373,7 +2373,7 @@ export function samp(
   ...values: unknown[]
 ): HTMLElement
 export function samp(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("samp", template, ...values)
@@ -2386,7 +2386,7 @@ export function samp(
  * @param html HTML to set to innnerHTML
  */
 export function script(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLScriptElement
 /**
@@ -2400,7 +2400,7 @@ export function script(
   ...values: unknown[]
 ): HTMLScriptElement
 export function script(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLScriptElement {
   return createElement("script", template, ...values)
@@ -2413,7 +2413,7 @@ export function script(
  * @param html HTML to set to innnerHTML
  */
 export function section(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -2427,7 +2427,7 @@ export function section(
   ...values: unknown[]
 ): HTMLElement
 export function section(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("section", template, ...values)
@@ -2440,7 +2440,7 @@ export function section(
  * @param html HTML to set to innnerHTML
  */
 export function select(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLSelectElement
 /**
@@ -2454,7 +2454,7 @@ export function select(
   ...values: unknown[]
 ): HTMLSelectElement
 export function select(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLSelectElement {
   return createElement("select", template, ...values)
@@ -2467,7 +2467,7 @@ export function select(
  * @param html HTML to set to innnerHTML
  */
 export function slot(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLSlotElement
 /**
@@ -2481,7 +2481,7 @@ export function slot(
   ...values: unknown[]
 ): HTMLSlotElement
 export function slot(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLSlotElement {
   return createElement("slot", template, ...values)
@@ -2494,7 +2494,7 @@ export function slot(
  * @param html HTML to set to innnerHTML
  */
 export function small(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -2508,7 +2508,7 @@ export function small(
   ...values: unknown[]
 ): HTMLElement
 export function small(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("small", template, ...values)
@@ -2521,7 +2521,7 @@ export function small(
  * @param html HTML to set to innnerHTML
  */
 export function source(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLSourceElement
 /**
@@ -2535,7 +2535,7 @@ export function source(
   ...values: unknown[]
 ): HTMLSourceElement
 export function source(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLSourceElement {
   return createElement("source", template, ...values)
@@ -2548,7 +2548,7 @@ export function source(
  * @param html HTML to set to innnerHTML
  */
 export function span(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLSpanElement
 /**
@@ -2562,7 +2562,7 @@ export function span(
   ...values: unknown[]
 ): HTMLSpanElement
 export function span(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLSpanElement {
   return createElement("span", template, ...values)
@@ -2575,7 +2575,7 @@ export function span(
  * @param html HTML to set to innnerHTML
  */
 export function strong(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -2589,7 +2589,7 @@ export function strong(
   ...values: unknown[]
 ): HTMLElement
 export function strong(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("strong", template, ...values)
@@ -2602,7 +2602,7 @@ export function strong(
  * @param html HTML to set to innnerHTML
  */
 export function style(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLStyleElement
 /**
@@ -2616,7 +2616,7 @@ export function style(
   ...values: unknown[]
 ): HTMLStyleElement
 export function style(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLStyleElement {
   return createElement("style", template, ...values)
@@ -2629,7 +2629,7 @@ export function style(
  * @param html HTML to set to innnerHTML
  */
 export function sub(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -2643,7 +2643,7 @@ export function sub(
   ...values: unknown[]
 ): HTMLElement
 export function sub(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("sub", template, ...values)
@@ -2656,7 +2656,7 @@ export function sub(
  * @param html HTML to set to innnerHTML
  */
 export function summary(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -2670,7 +2670,7 @@ export function summary(
   ...values: unknown[]
 ): HTMLElement
 export function summary(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("summary", template, ...values)
@@ -2683,7 +2683,7 @@ export function summary(
  * @param html HTML to set to innnerHTML
  */
 export function sup(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -2697,7 +2697,7 @@ export function sup(
   ...values: unknown[]
 ): HTMLElement
 export function sup(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("sup", template, ...values)
@@ -2710,7 +2710,7 @@ export function sup(
  * @param html HTML to set to innnerHTML
  */
 export function svg(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): SVGSVGElement
 /**
@@ -2724,7 +2724,7 @@ export function svg(
   ...values: unknown[]
 ): SVGSVGElement
 export function svg(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): SVGSVGElement {
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg")
@@ -2736,7 +2736,7 @@ export function svg(
       svg.innerHTML = html
     }
     for (const [key, value] of Object.entries(template)) {
-      svg.setAttribute(key, value)
+      svg.setAttribute(key, String(value))
     }
   }
   return svg
@@ -2749,7 +2749,7 @@ export function svg(
  * @param html HTML to set to innnerHTML
  */
 export function table(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLTableElement
 /**
@@ -2763,7 +2763,7 @@ export function table(
   ...values: unknown[]
 ): HTMLTableElement
 export function table(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLTableElement {
   return createElement("table", template, ...values)
@@ -2776,7 +2776,7 @@ export function table(
  * @param html HTML to set to innnerHTML
  */
 export function tbody(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLTableSectionElement
 /**
@@ -2790,7 +2790,7 @@ export function tbody(
   ...values: unknown[]
 ): HTMLTableSectionElement
 export function tbody(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLTableSectionElement {
   return createElement("tbody", template, ...values)
@@ -2803,7 +2803,7 @@ export function tbody(
  * @param html HTML to set to innnerHTML
  */
 export function td(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLTableCellElement
 /**
@@ -2817,7 +2817,7 @@ export function td(
   ...values: unknown[]
 ): HTMLTableCellElement
 export function td(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLTableCellElement {
   return createElement("td", template, ...values)
@@ -2830,7 +2830,7 @@ export function td(
  * @param html HTML to set to innnerHTML
  */
 export function template(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLTemplateElement
 /**
@@ -2844,7 +2844,7 @@ export function template(
   ...values: unknown[]
 ): HTMLTemplateElement
 export function template(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLTemplateElement {
   return createElement("template", template, ...values)
@@ -2857,7 +2857,7 @@ export function template(
  * @param html HTML to set to innnerHTML
  */
 export function textarea(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLTextAreaElement
 /**
@@ -2871,7 +2871,7 @@ export function textarea(
   ...values: unknown[]
 ): HTMLTextAreaElement
 export function textarea(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLTextAreaElement {
   return createElement("textarea", template, ...values)
@@ -2884,7 +2884,7 @@ export function textarea(
  * @param html HTML to set to innnerHTML
  */
 export function tfoot(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLTableSectionElement
 /**
@@ -2898,7 +2898,7 @@ export function tfoot(
   ...values: unknown[]
 ): HTMLTableSectionElement
 export function tfoot(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLTableSectionElement {
   return createElement("tfoot", template, ...values)
@@ -2911,7 +2911,7 @@ export function tfoot(
  * @param html HTML to set to innnerHTML
  */
 export function th(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLTableCellElement
 /**
@@ -2925,7 +2925,7 @@ export function th(
   ...values: unknown[]
 ): HTMLTableCellElement
 export function th(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLTableCellElement {
   return createElement("th", template, ...values)
@@ -2938,7 +2938,7 @@ export function th(
  * @param html HTML to set to innnerHTML
  */
 export function thead(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLTableSectionElement
 /**
@@ -2952,7 +2952,7 @@ export function thead(
   ...values: unknown[]
 ): HTMLTableSectionElement
 export function thead(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLTableSectionElement {
   return createElement("thead", template, ...values)
@@ -2965,7 +2965,7 @@ export function thead(
  * @param html HTML to set to innnerHTML
  */
 export function time(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLTimeElement
 /**
@@ -2979,7 +2979,7 @@ export function time(
   ...values: unknown[]
 ): HTMLTimeElement
 export function time(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLTimeElement {
   return createElement("time", template, ...values)
@@ -2992,7 +2992,7 @@ export function time(
  * @param html HTML to set to innnerHTML
  */
 export function title(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLTitleElement
 /**
@@ -3006,7 +3006,7 @@ export function title(
   ...values: unknown[]
 ): HTMLTitleElement
 export function title(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLTitleElement {
   return createElement("title", template, ...values)
@@ -3019,7 +3019,7 @@ export function title(
  * @param html HTML to set to innnerHTML
  */
 export function tr(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLTableRowElement
 /**
@@ -3033,7 +3033,7 @@ export function tr(
   ...values: unknown[]
 ): HTMLTableRowElement
 export function tr(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLTableRowElement {
   return createElement("tr", template, ...values)
@@ -3046,7 +3046,7 @@ export function tr(
  * @param html HTML to set to innnerHTML
  */
 export function track(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLTrackElement
 /**
@@ -3060,7 +3060,7 @@ export function track(
   ...values: unknown[]
 ): HTMLTrackElement
 export function track(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLTrackElement {
   return createElement("track", template, ...values)
@@ -3073,7 +3073,7 @@ export function track(
  * @param html HTML to set to innnerHTML
  */
 export function u(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -3087,7 +3087,7 @@ export function u(
   ...values: unknown[]
 ): HTMLElement
 export function u(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("u", template, ...values)
@@ -3100,7 +3100,7 @@ export function u(
  * @param html HTML to set to innnerHTML
  */
 export function ul(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLUListElement
 /**
@@ -3114,7 +3114,7 @@ export function ul(
   ...values: unknown[]
 ): HTMLUListElement
 export function ul(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLUListElement {
   return createElement("ul", template, ...values)
@@ -3128,7 +3128,7 @@ export function ul(
  */
 // deno-lint-ignore camelcase
 export function var_(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -3144,7 +3144,7 @@ export function var_(
 ): HTMLElement
 // deno-lint-ignore camelcase
 export function var_(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("var", template, ...values)
@@ -3157,7 +3157,7 @@ export function var_(
  * @param html HTML to set to innnerHTML
  */
 export function video(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLVideoElement
 /**
@@ -3171,7 +3171,7 @@ export function video(
   ...values: unknown[]
 ): HTMLVideoElement
 export function video(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLVideoElement {
   return createElement("video", template, ...values)
@@ -3184,7 +3184,7 @@ export function video(
  * @param html HTML to set to innnerHTML
  */
 export function wbr(
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html?: string,
 ): HTMLElement
 /**
@@ -3198,7 +3198,7 @@ export function wbr(
   ...values: unknown[]
 ): HTMLElement
 export function wbr(
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElement {
   return createElement("wbr", template, ...values)
@@ -3206,7 +3206,7 @@ export function wbr(
 
 function createElement<K extends keyof HTMLElementTagNameMap>(
   tagName: K,
-  template: TemplateStringsArray | Record<string, string>,
+  template: TemplateStringsArray | Record<string, unknown>,
   ...values: unknown[]
 ): HTMLElementTagNameMap[K] {
   const el = document.createElement(tagName)
@@ -3219,7 +3219,7 @@ function createElement<K extends keyof HTMLElementTagNameMap>(
       el.innerHTML = html
     }
     for (const [key, value] of Object.entries(template)) {
-      el.setAttribute(key, value)
+      el.setAttribute(key, String(value))
     }
   }
   return el
